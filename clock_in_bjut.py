@@ -12,8 +12,8 @@ def login():
     url = 'https://itsapp.bjut.edu.cn/uc/wap/login?redirect=https%3A%2F%2Fitsapp.bjut.edu.cn%2Fsite%2FapplicationSquare%2Findex%3Fsid%3D1'
     browser.get(url)
 
-    browser.find_element_by_xpath('//*[@id="app"]/div[2]/div[1]/input').send_keys('S201961177')
-    browser.find_element_by_xpath('//*[@id="app"]/div[2]/div[2]/input').send_keys('Qc971515wyw61*-')
+    browser.find_element_by_xpath('//*[@id="app"]/div[2]/div[1]/input').send_keys('your id')
+    browser.find_element_by_xpath('//*[@id="app"]/div[2]/div[2]/input').send_keys('your password')
     browser.find_element_by_xpath('//*[@id="app"]/div[3]').click()
     browser.maximize_window()
 
